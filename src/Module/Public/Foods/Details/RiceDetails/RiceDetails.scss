@@ -1,0 +1,33 @@
+#rice-details{
+    margin-top: 110px;
+
+    .font{
+        font-size: 50px;
+        color: #82ae46;
+        margin-bottom: 1rem;
+    }
+
+    .item-food{
+
+        .name-item{
+          font-size: 1.14285714rem;
+        line-height: 1.5;
+        font-weight: 400;
+        font-weight: 500;
+        color: #1c1c1c;
+        margin-bottom: 4px;
+        height: 1.5em;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    
+        }
+        
+      }
+      .icon{
+        width: 120px;
+        margin-top: 8px;
+      }
+      .icon-count{
+        float: right;
+    }
+}
