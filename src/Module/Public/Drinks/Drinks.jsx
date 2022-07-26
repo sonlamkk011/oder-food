@@ -1,3 +1,4 @@
+import "./Drinks.scss";
 import Button from '@mui/material/Button';
 import { useState } from "react";
 import TextField from '@mui/material/TextField';
@@ -6,35 +7,36 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-import "./BreadDetails.scss";
 
 
 
 
-const BreadDetails = () => {
+
+const Drinks = () => {
     const [count, setCount] = useState(0);
     const [open, setOpen] = useState(false);
 
     
 
 
-const handleIncrease = () => {
-        setCount(count +1)
-}
-const handleReduce = () => {
-    setCount(count -1)
-}
-const handleClickOpen = () => {
-  setOpen(true);
-};
+    const handleIncrease = () => {
+            setCount(count +1)
+    }
+    const handleReduce = () => {
+        setCount(count -1)
+    }
 
-const handleClose = () => {
-  setOpen(false);
-};
+    const handleClickOpen = () => {
+      setOpen(true);
+    };
+  
+    const handleClose = () => {
+      setOpen(false);
+    };
     
     return(
         <>
-        <div id="bread-details">
+        <div id="drinks">
         <div className="container">
                 <div className="row">
                 <div className="col-sm-3">
@@ -106,9 +108,9 @@ const handleClose = () => {
 
             </div>
 
+
         </div>
-        
         </>
     )
 }
-export default BreadDetails;
+export default Drinks;

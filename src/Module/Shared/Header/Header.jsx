@@ -12,6 +12,7 @@ import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
 import { useRef, useState } from 'react';
 import { useEffect } from 'react';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
 const Header = () => {
@@ -237,7 +238,7 @@ const Header = () => {
             </li>
             
             <li className="nav-item">
-              <a className="nav-link" href="orders.html">
+              <a className="nav-link" href="drinks">
                 <span className="nav-icon">
                   <svg
                     width="1em"
@@ -257,10 +258,31 @@ const Header = () => {
                 <span className="nav-link-text">Đồ Uống</span>
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="cart">
+                <span className="nav-icon">
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    className="bi bi-card-list"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <ShoppingCartIcon />
+                  
+                    <circle cx="3.5" cy="5.5" r=".5" />
+                    <circle cx="3.5" cy={8} r=".5" />
+                    <circle cx="3.5" cy="10.5" r=".5" />
+                  </svg>
+                </span>
+                <span className="nav-link-text">Giỏ Hàng</span>
+              </a>
+            </li>
            
             <li className="nav-item">
               {/*//Bootstrap Icons: https://icons.getbootstrap.com/ */}
-              <a className="nav-link" href="help.html">
+              <a className="nav-link" href="contact">
                 <span className="nav-icon">
                   <svg
                     width="1em"
