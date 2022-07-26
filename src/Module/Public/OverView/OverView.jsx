@@ -10,7 +10,7 @@ const OverView = () => {
             <div className="container">
             <div className="marquee">
           <marquee width="100%" behavior="alternate"  >
-            <h3 className="list-bar">Cơm rang dưa bò,  Bánh mỳ trứng , bánh mỳ xúc xích, bún bò , phở bò, mỳ tôm trứng</h3>
+            <h3 className="list-bar">Cơm rang dưa bò,  Bánh mỳ trứng , bánh mỳ xúc xích</h3>
           </marquee>
         </div>
                 
