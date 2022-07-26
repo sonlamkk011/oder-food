@@ -1,15 +1,23 @@
+import Header from "../../Shared/Header/Header";
 import "./OverView.scss";
 
 
 const OverView = () => {
     return(
         <>
+      
         <div id="over-view">
             <div className="container">
-                <img className="gif" src="https://media4.giphy.com/media/7JzHsh3UTip20/giphy.gif?cid=ecf05e47uv6q6tmttk0okacbdxossaep90t2iqk6g2cz1me1&rid=giphy.gif&ct=g" alt="this slowpoke moves"  />
+            <div className="marquee">
+          <marquee width="100%" behavior="alternate"  >
+            <h3 className="list-bar">Cơm rang dưa bò,  Bánh mỳ trứng , bánh mỳ xúc xích, bún bò , phở bò, mỳ tôm trứng</h3>
+          </marquee>
+        </div>
+                
 
 
             </div>
+            <img className="gif" src="https://i.vnbusiness.vn/2020/09/09/giao-do-an-truc-tuyen-1599654435_500x300.jpg" alt="this slowpoke moves"  />
 
         </div>
         </>

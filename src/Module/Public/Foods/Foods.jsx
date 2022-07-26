@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Card } from 'antd';
+import Header from "../../Shared/Header/Header";
 
 
 
@@ -15,8 +16,15 @@ const { Meta } = Card;
 const Foods = () => {
     return(
         <>
+         
         <div id="foods">
        <div className="container">
+       <div className="marquee">
+          <marquee width="100%" behavior="alternate"  >
+            <h3 className="list-bar">Cơm rang dưa bò,  Bánh mỳ trứng , bánh mỳ xúc xích, bún bò , phở bò, mỳ tôm trứng</h3>
+          </marquee>
+        </div>
+       
         <div className="row">
         <div className="col-md-4">
                         <div className="item-food">

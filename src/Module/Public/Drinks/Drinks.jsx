@@ -43,6 +43,11 @@ const Drinks = () => {
         <>
         <div id="drinks">
         <div className="container">
+        <div className="marquee">
+          <marquee width="100%" behavior="alternate"  >
+            <h3 className="list-bar">Cơm rang dưa bò,  Bánh mỳ trứng , bánh mỳ xúc xích, bún bò , phở bò, mỳ tôm trứng</h3>
+          </marquee>
+        </div>
                 <div className="row">
                 <div className="col-sm-3">
                         <div className="item-food">

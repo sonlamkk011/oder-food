@@ -6,14 +6,18 @@ import Drinks from "./Drinks/Drinks";
 import BreadDetails from "./Foods/Details/BreadDetails/BreadDetails";
 import RiceDetails from "./Foods/Details/RiceDetails/RiceDetails";
 import Foods from "./Foods/Foods";
+import OverView from "./OverView/OverView";
 
 
 const Public = () => {
     return(
         <>
-        <Header />
+        {/* <Header /> */}
         <BrowserRouter >
         <Switch >
+              <Route path="/" exact>
+        <OverView />
+      </Route>
            
             <Route path="/foods" exact>
                 <Foods />

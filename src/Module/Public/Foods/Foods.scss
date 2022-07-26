@@ -1,5 +1,8 @@
 #foods {
-    margin-top: 110px;
+    margin-top: 50px;
+
+
+   
     .font{
         font-size: 50px;
         color: #82ae46;
@@ -7,6 +10,8 @@
     }
 
     .item-food{
+      margin-top: 50px;
+
 
         .name-item{
           font-size: 1.14285714rem;
@@ -22,4 +27,21 @@
         }
       }
     
+}
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 15px;
+
+  background-color:gainsboro;
+  margin-top: 50px;
+
+  .list-bar  {
+    height:30px;
+    
+  }
+  
+}
+.marquee:hover{
+-webkit-animation: 0;
 }

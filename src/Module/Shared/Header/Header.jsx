@@ -13,6 +13,9 @@ import Stack from '@mui/material/Stack';
 import { useRef, useState } from 'react';
 import { useEffect } from 'react';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import "./Header.scss";
+import Foods from '../../Public/Foods/Foods';
+import Public from '../../Public/Public';
 
 
 const Header = () => {
@@ -53,9 +56,12 @@ const Header = () => {
   
     return(
         <>
+      
         
         <div id="header">
+
             <div className="container">
+         
             <>
   <header className="app-header fixed-top">
     <div className="app-header-inner">
@@ -345,6 +351,7 @@ const Header = () => {
 
 
             </div>
+            <Public />
         </div>
         </>
     )

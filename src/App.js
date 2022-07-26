@@ -5,6 +5,7 @@ import Public from './Module/Public/Public';
 import OverView from './Module/Public/OverView/OverView';
 import Login from './Module/Public/Auth/Login/Login';
 import Register from './Module/Public/Auth/Register/Register';
+import Header from './Module/Shared/Header/Header';
 
 
 function App() {
@@ -12,9 +13,7 @@ function App() {
     <>
     <BrowserRouter>
     <Switch>
-      <Route path="/" exact>
-        <OverView />
-      </Route>
+    
       <Route path="/login">
         <Login />
       </Route>
@@ -24,7 +23,7 @@ function App() {
       
     </Switch>
     </BrowserRouter>
-    <Public />
+    <Header />
 
     </>
   );
