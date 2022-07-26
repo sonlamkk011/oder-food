@@ -23,7 +23,12 @@ const Drinks = () => {
             setCount(count +1)
     }
     const handleReduce = () => {
-        setCount(count -1)
+       
+        if(count == 0){
+          
+        }else{
+          setCount(count -1)
+        }
     }
 
     const handleClickOpen = () => {

@@ -139,7 +139,7 @@ const Header = () => {
                
               </div>
               <div className="app-utility-item">
-                <a href="settings.html" title="Settings">
+                <a href="settings" title="Settings">
                   <svg
                     width="1em"
                     height="1em"

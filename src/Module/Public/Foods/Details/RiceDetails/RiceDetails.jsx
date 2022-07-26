@@ -22,7 +22,11 @@ const handleIncrease = () => {
         setCount(count +1)
 }
 const handleReduce = () => {
+  if(count == 0){
+          
+  }else{
     setCount(count -1)
+  }
 }
 const handleClickOpen = () => {
   setOpen(true);
